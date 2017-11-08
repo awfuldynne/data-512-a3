@@ -15,7 +15,7 @@ I am a data scientist who has been working in a variety of roles in the tech ind
 
 Providing a better understanding of technology workers' views on mental health issues is inherently a human-centered project. The National Alliance on Mental Illness (NAMI) defines stigma as one person viewing another in a negative way due to a mental illness.[[3]](#references) Understanding how tech workers view this stigma and assessing the basics of services the company they work for provides allows us to start the discussion around how to reduce the stigma around the perception of mental health issues.
 
-When a user opts in to taking the survey they are presented with the context of how results of the survey will be used. This includes the intent of the survey, how the data will be shared, the license it will be shared under, and a way to follow up with OSMI in the case that they have any questions.[[3]](#references)
+When a user opts in to taking the survey they are presented with the [context](#additional-images) of how results of the survey will be used. This includes the intent of the survey, how the data will be shared, the license it will be shared under, and a way to follow up with OSMI in the case that they have any questions.[[3]](#references)
 
 All of the data from surveys has been anonymized such that we are only given a participant's age, location, and state when applicable.
 
@@ -25,15 +25,19 @@ Within this analysis I will be exploring sentiment from IT workers about mental 
 
 ##### RQ1: Sentiment Over Time
 
-In this research question I want to explore if the overall sentiment of tech workers on mental health has improved from the 2014 survey to the 2016 survey. Singletary et al. determined that 13-year old children tended to perceive being healthy as meaning physical well-being as opposed to mental well-being [[6]](#references). From the survey results, I will use the questions for believed negative consequences for discussing a physical or mental ailment with your employer to evaluate my hypothesis that the perception of consequences for discussing a physical health issue are seen as less likely to be negative than discussing a mental health issue.
+In this research question I want to explore if the overall sentiment of tech workers on mental health has improved from the 2014 survey to the 2016 survey. Singletary et al. determined that 13-year old children tended to perceive being healthy as meaning physical well-being as opposed to mental well-being [[6]](#References). From the survey results, I will use the questions for believed negative consequences for discussing a physical or mental ailment with your employer to evaluate my hypothesis that the perception of consequences for discussing a physical health issue are seen as less likely to be negative than discussing a mental health issue. I believe that technology workers will share this same perception.
 
 **H1a:** More negative perception of discussing mental health.
 
-Given the findings of Singletary et al., I also hypothesize that it is unlikely that how people perceive the consequences of discussing mental illness with their employer has changed between the two surveys.
+Given the findings of Singletary et al., I also hypothesize that how people perceive the consequences of discussing mental illness with their employer has not changed between the two surveys.
 
 **H1b:** Perception of discussing physical/mental health between surveys hasn't changed.
 
 ##### RQ2: Benefit Coverage Increase
+
+For my second research question, I want to examine if there has been an increase in coverage of mental health benefits among tech workers. As this study is primarily made up of individuals in the United States, I believe that coverage will have increased due to benefits from The Affordable Care Act as many millions of people have gained healthcare from this bill. [[7]](#References)
+
+**H2a:** Increase in percent of tech workers with mental health benefits.
 
 ### Data Sets
 
@@ -41,7 +45,7 @@ The data sets that I'll be using for this project are survey results collected b
 
 OSMI has made the data sets for both the [2014 survey](https://www.kaggle.com/osmi/mental-health-in-tech-survey/data) and the [2016 survey](https://www.kaggle.com/osmi/mental-health-in-tech-2016) available on Kaggle.
 
-To ensure open access to the data, I have uploaded the data in CSV format to [figshare](https://doi.org/10.6084/m9.figshare.5579458.v1) with a description of each column/question. In 2014 the columns were labeled by a keyword to indicate the question asked, I have provided this mapping in the appendix of this document.
+To ensure open access to the data, I have uploaded the data in CSV format to [figshare](https://doi.org/10.6084/m9.figshare.5579458.v1) with a description of each column/question. In 2014 the columns were labeled by a keyword to indicate the question asked, I have provided this mapping in the [appendix](#appendix) of this document.
 
 ### Software to be Used
 
@@ -181,5 +185,7 @@ While both surveys contain the same subset of questions, the 2016 survey contain
 
 
 [[5]](#references)
+
+Below is a picture of the context presented to users as they are about to take the survey.
 
 ![Survey Introduction](pictures/SurveyIntroduction.JPG)
