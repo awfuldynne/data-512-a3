@@ -13,7 +13,7 @@ I am a data scientist who has been working in a variety of roles in the tech ind
 
 ### Human-Centeredness of The Project
 
-Providing a better understanding of technology workers' views on mental health issues is inherently a human-centered project. The National Alliance on Mental Illness (NAMI) defines stigma as one person viewing another in a negative way due to a mental illness.[[3]](#references) Understanding how tech workers view this stigma and assessing the basics of services the company they work for provides allows us to start the discussion around how to reduce the stigma around the perception of mental health issues.
+Providing a better understanding of technology workers' views on mental health issues is inherently a human-centered project. The National Alliance on Mental Illness (NAMI) defines stigma as one person viewing another in a negative way due to a mental illness.[[3]](#references) Understanding how tech workers view this stigma and assessing the services the company they work for provides allows us to start the discussion about how to reduce the stigma around the perception of mental health issues.
 
 When a user opts in to taking the survey they are presented with the [context](#additional-images) of how results of the survey will be used. This includes the intent of the survey, how the data will be shared, the license it will be shared under, and a way to follow up with OSMI in the case that they have any questions.[[3]](#references)
 
@@ -21,11 +21,11 @@ All of the data from surveys has been anonymized such that we are only given a p
 
 ### Research Questions
 
-Within this analysis I will be exploring sentiment from IT workers about mental health and if employer provided mental health benefits/information for benefits have improved between the two surveys.
+Within this analysis I will be exploring sentiment from IT workers about mental health and if employer provided mental health benefits have improved between the two surveys.
 
 ##### RQ1: Sentiment Over Time
 
-In this research question I want to explore if the overall sentiment of tech workers on mental health has improved from the 2014 survey to the 2016 survey. Singletary et al. determined that 13-year old children tended to perceive being healthy as meaning physical well-being as opposed to mental well-being [[6]](#References). From the survey results, I will use the questions for believed negative consequences for discussing a physical or mental ailment with your employer to evaluate my hypothesis that the perception of consequences for discussing a physical health issue are seen as less likely to be negative than discussing a mental health issue. I believe that technology workers will share this same perception.
+In this research question I want to explore if the overall sentiment of tech workers on mental health has improved from the 2014 survey to the 2016 survey. Singletary et al. determined that 13-year old children tended to perceive being healthy as meaning physical well-being as opposed to mental well-being [[6]](#References). I believe that technology workers will share this same perception.
 
 **H1a:** More negative perception of discussing mental health.
 
@@ -49,7 +49,7 @@ The data sets that I'll be using for this project are survey results collected b
 
 OSMI has made the data sets for both the [2014 survey](https://www.kaggle.com/osmi/mental-health-in-tech-survey/data) and the [2016 survey](https://www.kaggle.com/osmi/mental-health-in-tech-2016) available on Kaggle.
 
-To ensure open access to the data, I have uploaded the data in CSV format to [figshare](https://doi.org/10.6084/m9.figshare.5579458.v1) with a description of each column/question. In 2014 the columns were labeled by a keyword to indicate the question asked, I have provided this mapping in the [appendix](#appendix) of this document.
+To ensure open access to the data, I have uploaded the data in CSV format to [figshare](https://doi.org/10.6084/m9.figshare.5579458.v1) with a description of each column/question [below](#appendix). In 2014 the columns were labeled by a keyword to indicate the question asked, I have provided this mapping in the [appendix](#appendix) of this document.
 
 ### Software to be Used
 
@@ -63,9 +63,9 @@ All of the code will be written and tested against the default packages present 
 
 Some of the potential limitations of the results of the analysis stem from how the data were collected. The survey was promoted through OSMI's Twitter [[4]](#references) and sites focusing on mental health issues in the tech industry like [BlueHackers](http://bluehackers.org/2016/04/02/osmi-mental-health-in-tech-survey-2016). Individuals that are likely to visit these sites or to follow OSMI on Twitter would seemingly be more likely to be open about discussing mental health issues.
 
-All data provided in the survey was self-reported and the majority of responses in both surveys come from the United States (59.7% in 2014 and 58.6% in 2016).
+All data provided in the survey was self-reported and the majority of responses in both surveys come from the United States (59.7% in 2014 and 58.6% in 2016) so some bias is expected in the sample of people who have filled out the survey.
 
-While both surveys contain the same subset of questions, the 2016 survey contains many more questions than the 2014 survey and allows the user to go into greater detail to qualify their answers. This limits our ability to compare the more qualitative answers users had the option to provide. The questions that are similar between the surveys generally provided a Yes/No/Maybe response. Quantifying sentiment around mental health issues given the limited range of responses might yield uninteresting results.
+While both surveys contain a same subset of questions, the 2016 survey contains many more questions than the 2014 survey and allows the user to go into greater detail to qualify their answers. This limits our ability to compare the more qualitative answers users had the option to provide. The questions that are similar between the surveys generally provided a Yes/No/Maybe response. Quantifying sentiment around mental health issues given the limited range of responses might yield uninteresting results.
 
 ### References
 
