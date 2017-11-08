@@ -182,4 +182,4 @@ While both surveys contain the same subset of questions, the 2016 survey contain
 
 [[5]](#references)
 
-![Survey Introduction](https://raw.githubusercontent.com/awfuldynne/data-512-a3/master/pictures/SurveyIntroduction.jpg) 
+![Survey Introduction](pictures/SurveyIntroduction.JPG)
