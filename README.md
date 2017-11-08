@@ -4,7 +4,7 @@ Sean Miller - <millsea0@uw.edu>
 
 ### Purpose of The Analysis
 
-The purpose of this analysis is to undestand how information technology (IT) workers feel about mental health issues. "Although research has gone far to understand the impact of the disease, it has only recently begun to explain stigma in mental illness. Much work yet needs to be done to fully understand the breadth and scope of prejudice against people with mental illness." [[1]](#References) Two surveys conducted by [Open Sourcing Mental Illness Ltd](https://osmihelp.org/research/) (OSMI) collected information around perceived stigma of mental health issues as well as to "...examine the frequency of mental health disorders among tech workers."[[2]](#References). OSMI has conducted these surveys in 2014 and 2016 to identify areas where they can raise awareness around 
+The purpose of this analysis is to undestand how information technology (IT) workers feel about mental health issues. "Although research has gone far to understand the impact of the disease, it has only recently begun to explain stigma in mental illness. Much work yet needs to be done to fully understand the breadth and scope of prejudice against people with mental illness." [[1]](#references) Two surveys conducted by [Open Sourcing Mental Illness Ltd](https://osmihelp.org/research/) (OSMI) collected information around perceived stigma of mental health issues as well as to "...examine the frequency of mental health disorders among tech workers."[[2]](#references). OSMI has conducted these surveys in 2014 and 2016 to identify areas where they can raise awareness around 
 mental health in the tech community.
 
 I will be comparing potential differences in the surveys between the two years it was run as well as analyzing if views on mental health between survey participants inside and outside of the United States differ.
@@ -13,9 +13,9 @@ I am a data scientist who has been working in a variety of roles in the tech ind
 
 ### Human-Centeredness of The Project
 
-Providing a better understanding of technology workers' views on mental health issues is inherently a human-centered project. The National Alliance on Mental Illness (NAMI) defines stigma as one person viewing another in a negative way due to a mental illness.[[3]](#References) Understanding how tech workers view this stigma and assessing the basics of services the company they work for provides allows us to start the discussion around how to reduce the stigma around the perception of mental health issues.
+Providing a better understanding of technology workers' views on mental health issues is inherently a human-centered project. The National Alliance on Mental Illness (NAMI) defines stigma as one person viewing another in a negative way due to a mental illness.[[3]](#references) Understanding how tech workers view this stigma and assessing the basics of services the company they work for provides allows us to start the discussion around how to reduce the stigma around the perception of mental health issues.
 
-When a user opts in to taking the survey they are presented with the context of how results of the survey will be used. This includes the intent of the survey, how the data will be shared, the license it will be shared under, and a way to follow up with OSMI in the case that they have any questions.[[3]](#References)
+When a user opts in to taking the survey they are presented with the context of how results of the survey will be used. This includes the intent of the survey, how the data will be shared, the license it will be shared under, and a way to follow up with OSMI in the case that they have any questions.[[3]](#references)
 
 All of the data from surveys has been anonymized such that we are only given a participant's age, location, and state when applicable.
 
@@ -25,7 +25,7 @@ Within this analysis I will be exploring sentiment from IT workers about mental 
 
 ##### RQ1: Sentiment Over Time
 
-In this research question I want to explore if the overall sentiment of tech workers on mental health has improved from the 2014 survey to the 2016 survey. Singletary et al. determined that 13-year old children tended to perceive being healthy as meaning physical well-being as opposed to mental well-being [[6]](#References). From the survey results, I will use the questions for believed negative consequences for discussing a physical or mental ailment with your employer to evaluate my hypothesis that the perception of consequences for discussing a physical health issue are seen as less likely to be negative than discussing a mental health issue.
+In this research question I want to explore if the overall sentiment of tech workers on mental health has improved from the 2014 survey to the 2016 survey. Singletary et al. determined that 13-year old children tended to perceive being healthy as meaning physical well-being as opposed to mental well-being [[6]](#references). From the survey results, I will use the questions for believed negative consequences for discussing a physical or mental ailment with your employer to evaluate my hypothesis that the perception of consequences for discussing a physical health issue are seen as less likely to be negative than discussing a mental health issue.
 
 **H1a:** More negative perception of discussing mental health.
 
@@ -53,7 +53,7 @@ All of the code will be written and tested against the default packages present 
 
 ### Unknowns or Potential Problems
 
-Some of the potential limitations of the results of the analysis stem from how the data were collected. The survey was promoted through OSMI's Twitter [[4]](#References) and sites focusing on mental health issues in the tech industry like [BlueHackers](http://bluehackers.org/2016/04/02/osmi-mental-health-in-tech-survey-2016). Individuals that are likely to visit these sites or to follow OSMI on Twitter would seemingly be more likely to be open about discussing mental health issues.
+Some of the potential limitations of the results of the analysis stem from how the data were collected. The survey was promoted through OSMI's Twitter [[4]](#references) and sites focusing on mental health issues in the tech industry like [BlueHackers](http://bluehackers.org/2016/04/02/osmi-mental-health-in-tech-survey-2016). Individuals that are likely to visit these sites or to follow OSMI on Twitter would seemingly be more likely to be open about discussing mental health issues.
 
 All data provided in the survey was self-reported and the majority of responses in both surveys come from the United States (59.7% in 2014 and 58.6% in 2016).
 
@@ -180,6 +180,6 @@ While both surveys contain the same subset of questions, the 2016 survey contain
 ### Additional Images
 
 
-[[5]](#References)
+[[5]](#references)
 
 ![Survey Introduction](https://raw.githubusercontent.com/awfuldynne/data-512-a3/master/pictures/SurveyIntroduction.jpg) 
