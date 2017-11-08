@@ -4,7 +4,7 @@ Sean Miller - <millsea0@uw.edu>
 
 ### Purpose of The Analysis
 
-The purpose of this analysis is to undestand how information technology (IT) workers feel about mental health issues. "Although research has gone far to understand the impact of the disease, it has only recently begun to explain stigma in mental illness. Much work yet needs to be done to fully understand the breadth and scope of prejudice against people with mental illness." [[1]](#references) Two surveys conducted by [Open Sourcing Mental Illness Ltd](https://osmihelp.org/research/) (OSMI) collected information around perceived stigma of mental health issues as well as to "...examine the frequency of mental health disorders among tech workers."[[2]](#references). OSMI has conducted these surveys in 2014 and 2016 to identify areas where they can raise awareness around 
+The purpose of this analysis is to understand how information technology (IT) workers feel about mental health issues. "Although research has gone far to understand the impact of the disease, it has only recently begun to explain stigma in mental illness. Much work yet needs to be done to fully understand the breadth and scope of prejudice against people with mental illness." [[1]](#references) Two surveys conducted by [Open Sourcing Mental Illness Ltd](https://osmihelp.org/research/) (OSMI) collected information around perceived stigma of mental health issues as well as to "...examine the frequency of mental health disorders among tech workers."[[2]](#references). OSMI has conducted these surveys in 2014 and 2016 to identify areas where they can raise awareness around 
 mental health in the tech community.
 
 I will be comparing potential differences in the surveys between the two years it was run as well as analyzing if views on mental health between survey participants inside and outside of the United States differ.
@@ -33,11 +33,15 @@ Given the findings of Singletary et al., I also hypothesize that how people perc
 
 **H1b:** Perception of discussing physical/mental health between surveys hasn't changed.
 
+To validate these hypotheses, I will be comparing the proportions of participants answers to "Do you think that discussing a mental health issue with your employer would have negative consequences?" and "Do you think that discussing a physical health issue with your employer would have negative consequences?" between surveys. Participants will be classified based on if their perception of the consequences of discussing mental health issues is greater than, less than or equal to their perception of the consequences for discussing a physical ailment.
+
 ##### RQ2: Benefit Coverage Increase
 
 For my second research question, I want to examine if there has been an increase in coverage of mental health benefits among tech workers. As this study is primarily made up of individuals in the United States, I believe that coverage will have increased due to benefits from The Affordable Care Act as many millions of people have gained healthcare from this bill. [[7]](#References)
 
 **H2a:** Increase in percent of tech workers with mental health benefits.
+
+To prove or disprove this hypothesis, I will be comparing the proportion of survey participants who answered yes to "Does your employer provide mental health benefits?" between the two surveys. I will also explore if country or self-employment are confounding variables.
 
 ### Data Sets
 
@@ -65,7 +69,7 @@ While both surveys contain the same subset of questions, the 2016 survey contain
 
 ### References
 
-[1] CORRIGAN, PATRICK W, and AMY C WATSON. “Understanding the Impact of Stigma on People with Mental Illness.” World Psychiatry 1.1 (2002): 16–20. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1489832/#B13. Accessed 5 Nov. 2017.
+[1] Corrigan, Patrick W, and Amy C Watson. “Understanding the Impact of Stigma on People with Mental Illness.” World Psychiatry 1.1 (2002): 16–20. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1489832/#B13. Accessed 5 Nov. 2017.
 
 [2] Ltd, Open Sourcing Mental Illness. “Research :: Open Sourcing Mental Illness” 2015-2017, [www.osmihelp.org/research](www.osmihelp.org/research). Accessed 5 Nov. 2017.
 
@@ -76,6 +80,8 @@ While both surveys contain the same subset of questions, the 2016 survey contain
 [5] Ltd, Open Sourcing Mental Illness. "OSMI Mental Health in Tech Survey 2016" 2016, <https://cojfunkatroncom.typeform.com/to/Ao6BTw>. Accessed 5 Nov. 2017.
 
 [6] Singletary et al. "Young people’s perceptions of mental and physical health in the context of general wellbeing." Abstract. Health Education Journal Vol 74, Issue 3, pp. 257 - 269. First Published June 4, 2014. <http://journals.sagepub.com/doi/10.1177/0017896914533219>. Accessed 6 Nov. 2017.
+
+[7] U.S. Department of Health & Human Services. "Health Insurance Coverage and the Affordable Care Act, 2010-2016". 2016. <https://aspe.hhs.gov/pdf-report/health-insurance-coverage-and-affordable-care-act-2010-2016>. Accessed 6 Nov. 2017.
 
 ### Appendix
 
