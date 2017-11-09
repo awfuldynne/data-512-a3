@@ -4,10 +4,10 @@ Sean Miller - <millsea0@uw.edu>
 
 ### Purpose of The Analysis
 
-The purpose of this analysis is to understand how information technology (IT) workers feel about mental health issues. "Although research has gone far to understand the impact of the disease, it has only recently begun to explain stigma in mental illness. Much work yet needs to be done to fully understand the breadth and scope of prejudice against people with mental illness." [[1]](#references) Two surveys conducted by [Open Sourcing Mental Illness Ltd](https://osmihelp.org/research/) (OSMI) collected information around perceived stigma of mental health issues as well as to "...examine the frequency of mental health disorders among tech workers."[[2]](#references). OSMI has conducted these surveys in 2014 and 2016 to identify areas where they can raise awareness around 
+The purpose of this analysis is to understand how information technology (IT) workers feel about mental health issues. "Although research has gone far to understand the impact of the disease, it has only recently begun to explain stigma in mental illness. Much work yet needs to be done to fully understand the breadth and scope of prejudice against people with mental illness." [[1]](#references) Two surveys conducted by [Open Sourcing Mental Illness Ltd](https://osmihelp.org/research/) (OSMI) collected information around perceived stigma of mental health issues as well as to "...examine the frequency of mental health disorders among tech workers."[[2]](#references). OSMI conducted these surveys in 2014 and 2016 to identify areas where they can raise awareness around 
 mental health in the tech community.
 
-I will be comparing potential differences in the surveys between the two years it was run as well as analyzing if views on mental health between survey participants inside and outside of the United States differ.
+I will be comparing potential differences in the surveys between the two years they were run as well as analyzing if views on mental health between survey participants inside and outside of the United States differ.
 
 I am a data scientist who has been working in a variety of roles in the tech industry since 2010. Having been impacted by mental health issues myself, I believe that promoting open discussion reduces the stigma both those with and without mental illnesses hold. This analysis seeks to engage in and start such discussions.
 
@@ -15,25 +15,25 @@ I am a data scientist who has been working in a variety of roles in the tech ind
 
 Providing a better understanding of technology workers' views on mental health issues is inherently a human-centered project. The National Alliance on Mental Illness (NAMI) defines stigma as one person viewing another in a negative way due to a mental illness.[[3]](#references) Understanding how tech workers view this stigma and assessing the services the company they work for provides allows us to start the discussion about how to reduce the stigma around the perception of mental health issues.
 
-When a user opts in to taking the survey they are presented with the [context](#additional-images) of how results of the survey will be used. This includes the intent of the survey, how the data will be shared, the license it will be shared under, and a way to follow up with OSMI in the case that they have any questions.[[3]](#references)
+When a user opts in to taking the survey they are presented with the [context](#additional-images) of how results from the survey will be used. This includes the intent of the survey, how the data will be shared, the license it will be shared under, and a way to follow up with OSMI in the case that a participant has any questions.[[3]](#references)
 
-All of the data from surveys has been anonymized such that we are only given a participant's age, location, and state when applicable.
+All of the data from surveys has been anonymized such that one is only given a participant's age, location, and state when applicable.
 
 ### Research Questions
 
-Within this analysis I will be exploring sentiment from IT workers about mental health and if employer provided mental health benefits have improved between the two surveys.
+Within this analysis I will be exploring sentiment from IT workers about mental health and whether employer-provided mental health benefits have improved between the two surveys.
 
 ##### RQ1: Sentiment Over Time
 
-In this research question I want to explore if the overall sentiment of tech workers on mental health has improved from the 2014 survey to the 2016 survey. Singletary et al. determined that 13-year old children tended to perceive being healthy as meaning physical well-being as opposed to mental well-being [[6]](#References). I believe that technology workers will share this same perception.
+In this research question I want to explore if the overall sentiment of tech workers towards mental health has improved from the 2014 survey to the 2016 survey. Singletary et al. determined that 13-year old children tended to perceive being healthy as meaning physical well-being as opposed to mental well-being [[6]](#References). I believe that technology workers will share this same perception given they have experienced the same health education.
 
-**H1a:** More negative perception of discussing mental health.
+**H1a:** More participants view discussing mental illness as having negative consequences than discussing physical illness.
 
 Given the findings of Singletary et al., I also hypothesize that how people perceive the consequences of discussing mental illness with their employer has not changed between the two surveys.
 
 **H1b:** Perception of discussing physical/mental health between surveys hasn't changed.
 
-To validate these hypotheses, I will be comparing the proportions of participants answers to "Do you think that discussing a mental health issue with your employer would have negative consequences?" and "Do you think that discussing a physical health issue with your employer would have negative consequences?" between surveys. Participants will be classified based on if their perception of the consequences of discussing mental health issues is greater than, less than or equal to their perception of the consequences for discussing a physical ailment.
+To validate these hypotheses, I will be comparing the proportions of participants' answers to "Do you think that discussing a mental health issue with your employer would have negative consequences?" and "Do you think that discussing a physical health issue with your employer would have negative consequences?" between surveys. Participants will be classified based on whether their perception of the consequences of discussing mental health issues is more negative than, less negative than or equal to their perception of the consequences for discussing a physical ailment.
 
 ##### RQ2: Benefit Coverage Increase
 
@@ -45,11 +45,11 @@ To prove or disprove this hypothesis, I will be comparing the proportion of surv
 
 ### Data Sets
 
-The data sets that I'll be using for this project are survey results collected by [OSMI](https://osmihelp.org/research/) and are made available by the [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. One survey was performed in 2014 and the other in 2016. Both of the surveys seek to understand how people that work in technology view mental health issues and to understand what support they receive from their employer.
+The data sets that I'll be using for this project are survey results collected by [OSMI](https://osmihelp.org/research/) and are made available by the [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. One survey was performed in 2014 and the other in 2016. Both of the surveys seek to understand how people that work in technology view mental health issues and to understand what support technology workers receive from their employer.
 
 OSMI has made the data sets for both the [2014 survey](https://www.kaggle.com/osmi/mental-health-in-tech-survey/data) and the [2016 survey](https://www.kaggle.com/osmi/mental-health-in-tech-2016) available on Kaggle.
 
-To ensure open access to the data, I have uploaded the data in CSV format to [figshare](https://doi.org/10.6084/m9.figshare.5579458.v1) with a description of each column/question [below](#appendix). In 2014 the columns were labeled by a keyword to indicate the question asked, I have provided this mapping in the [appendix](#appendix) of this document.
+To ensure open access to the data, I have uploaded the data in CSV format to [figshare](https://doi.org/10.6084/m9.figshare.5579458.v1) with a description of each column/question [below](#appendix). In 2014 the columns were labeled by a keyword to indicate the question asked; I have provided this mapping in the [appendix](#appendix) of this document.
 
 ### Software to be Used
 
@@ -63,15 +63,15 @@ All of the code will be written and tested against the default packages present 
 
 Some of the potential limitations of the results of the analysis stem from how the data were collected. The survey was promoted through OSMI's Twitter [[4]](#references) and sites focusing on mental health issues in the tech industry like [BlueHackers](http://bluehackers.org/2016/04/02/osmi-mental-health-in-tech-survey-2016). Individuals that are likely to visit these sites or to follow OSMI on Twitter would seemingly be more likely to be open about discussing mental health issues.
 
-All data provided in the survey was self-reported and the majority of responses in both surveys come from the United States (59.7% in 2014 and 58.6% in 2016) so some bias is expected in the sample of people who have filled out the survey.
+All data provided in the survey was self-reported and the majority of responses in both surveys come from the United States (59.7% in 2014 and 58.6% in 2016) so there is potential bias to view mental health issues in a more negative light in the sample of people who have filled out the survey. This bias could stem from the lack of insurance coverage prior to the Affordable Care Act.[[7]](#references)
 
-While both surveys contain a same subset of questions, the 2016 survey contains many more questions than the 2014 survey and allows the user to go into greater detail to qualify their answers. This limits our ability to compare the more qualitative answers users had the option to provide. The questions that are similar between the surveys generally provided a Yes/No/Maybe response. Quantifying sentiment around mental health issues given the limited range of responses might yield uninteresting results.
+While the 2016 survey contains the same questions that were asked in the 2014 survey, the questions in the 2016 survey go into much greater detail. An example of this is that the 2016 survey allows users to qualify their responses for why they would or wouldn’t bring up a mental illness during an interview. This limits our ability to compare the more qualitative answers users had the option to provide. The questions that are similar between the surveys generally provided a Yes/No/Maybe response. Quantifying sentiment around mental health issues given the limited range of responses might yield uninteresting results.
 
 ### References
 
 [1] Corrigan, Patrick W, and Amy C Watson. “Understanding the Impact of Stigma on People with Mental Illness.” World Psychiatry 1.1 (2002): 16–20. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1489832/#B13. Accessed 5 Nov. 2017.
 
-[2] Ltd, Open Sourcing Mental Illness. “Research :: Open Sourcing Mental Illness” 2015-2017, [www.osmihelp.org/research](www.osmihelp.org/research). Accessed 5 Nov. 2017.
+[2] Ltd, Open Sourcing Mental Illness. “Research :: Open Sourcing Mental Illness” 2015-2017, [https://www.osmihelp.org/research](https://www.osmihelp.org/research). Accessed 5 Nov. 2017.
 
 [3] National Alliance on Mental Illness. "StigmaFree" 2017, <https://www.nami.org/stigmafree>. Accessed 5 Nov. 2017.
 
